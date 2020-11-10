@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Bank</title>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet" />
+  
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<br><br>
+
+<div class="row">
+    <div class="container">
+        <div class="main" style="align-items: center;"> 
+            <h1>Texas Blood Bank</h1>
+                <h3>Donate Blood, Save Life</h3>
+                <button><a href="Register.html">Register</a> </button>
+
+        </div>
+
+        <div class="main">
+            <div class="form-group has-search">
+                <input type="text" class="form-control" placeholder="Search by blood-type">
+              </div>
+
+        </div>
+
+       
+
+
+        <table class="table responsive" id="grid-table">
+            <thead>
+            <tr>
+                <th scope="col">Identification Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Range</th>
+                <th scope="col">Availability</th>
+                <th scope="col">Email</th>
+                <th scope="col">Blood Type</th>
+                <th scope="col">Disease</th>
+                <th scope="col">Status</th>
+                <th scope="col">Contact</th>
+                
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">HIV and Syphilis</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">HIV and Syphilis</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">NA</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+
+
+            <tr>
+                <td data-table-header="Identification Number">0002</td>
+                <td data-table-header="Name">John Dey</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">1 miles away</td>
+                <td data-table-header="Availability">Avaiable on Weekends</td>
+                <td data-table-header="Email">john@email.com</td>
+                <td data-table-header="Blood Type">AB+</td>
+                <td data-table-header="Disease"></td>
+                <td data-table-header="Status">Blood Donated 2 months ago</td>
+                <td data-table-header="Contact"> +1 8328328322</td>
+            </tr>
+
+
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">HIV and Syphilis</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+
+
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">HIV and Syphilis</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+
+
+            <tr>
+                <td data-table-header="Identification Number">0001</td>
+                <td data-table-header="Name">Sameer Gyawali</td>
+                <td data-table-header="Location"><i aria-hidden="true" class="fa fa-external-link" data-toggle="popover" data-img='http://89.38.143.213/picture-ab49beef9067-70-0-1-85.jpg'>&nbsp;</i></td>
+                <td data-table-header="Range">2 miles away</td>
+                <td data-table-header="Availability">Avaiable</td>
+                <td data-table-header="Email">sameer@email.com</td>
+                <td data-table-header="Blood Type">B+</td>
+                <td data-table-header="Disease">HIV and Syphilis</td>
+                <td data-table-header="Status">Blood Donated 3 months ago</td>
+                <td data-table-header="Contact"> <a href="#"><i class="fa fa-edit"></i></a></td>
+            </tr>
+           
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<script src= "script.js"></script>
+
+</body>
+</html>
